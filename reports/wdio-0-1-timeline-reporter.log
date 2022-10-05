@@ -1,0 +1,72 @@
+{
+  "start": "2022-10-05T14:48:03.049Z",
+  "end": "2022-10-05T14:48:13.183Z",
+  "capabilities": {
+    "acceptInsecureCerts": true,
+    "browserName": "chrome",
+    "browserVersion": "106.0.5249.91",
+    "chrome": {
+      "chromedriverVersion": "106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569})",
+      "userDataDir": "/tmp/.com.google.Chrome.Drvdz9"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:39067"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "9f90be9b8c7b641a00c61e06cb085861"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "baseUrl": "https://www.volvocars.com",
+  "framework": "mocha",
+  "duration": 10134,
+  "suites": [
+    {
+      "title": "My Cookies popup",
+      "duration": 9823,
+      "start": "2022-10-05T14:48:03.069Z",
+      "end": "2022-10-05T14:48:12.892Z",
+      "tests": [
+        {
+          "title": "should refuse all cookies",
+          "start": "2022-10-05T14:48:06.766Z",
+          "end": "2022-10-05T14:48:12.891Z",
+          "duration": 6125,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2022-10-05T14:48:03.069Z",
+          "end": "2022-10-05T14:48:06.765Z",
+          "duration": 3696,
+          "title": "\"before all\" hook for My Cookies popup",
+          "associatedSuite": "My Cookies popup"
+        }
+      ]
+    }
+  ],
+  "specs": [
+    "/home/aburto22/salt/placements/volvo/qa/test/specs/cookies.e2e.ts"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  }
+}

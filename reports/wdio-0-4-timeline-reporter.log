@@ -1,0 +1,88 @@
+{
+  "start": "2022-10-05T14:48:04.317Z",
+  "end": "2022-10-05T14:48:21.964Z",
+  "capabilities": {
+    "acceptInsecureCerts": true,
+    "browserName": "chrome",
+    "browserVersion": "106.0.5249.91",
+    "chrome": {
+      "chromedriverVersion": "106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569})",
+      "userDataDir": "/tmp/.com.google.Chrome.LqF399"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:34843"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "97dbc3331425d1b213364fc18dd9a45e"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "baseUrl": "https://www.volvocars.com",
+  "framework": "mocha",
+  "duration": 17647,
+  "suites": [
+    {
+      "title": "My Testimonies section",
+      "duration": 17558,
+      "start": "2022-10-05T14:48:04.340Z",
+      "end": "2022-10-05T14:48:21.898Z",
+      "tests": [
+        {
+          "title": "should only load testimonial videos if visible",
+          "start": "2022-10-05T14:48:15.121Z",
+          "end": "2022-10-05T14:48:18.354Z",
+          "duration": 3233,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "should display videos when scrolling into view",
+          "start": "2022-10-05T14:48:18.355Z",
+          "end": "2022-10-05T14:48:20.321Z",
+          "duration": 1966,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "should play videos when clicking play",
+          "start": "2022-10-05T14:48:20.346Z",
+          "end": "2022-10-05T14:48:21.898Z",
+          "duration": 1552,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2022-10-05T14:48:04.340Z",
+          "end": "2022-10-05T14:48:15.120Z",
+          "duration": 10780,
+          "title": "\"before all\" hook for My Testimonies section",
+          "associatedSuite": "My Testimonies section"
+        }
+      ]
+    }
+  ],
+  "specs": [
+    "/home/aburto22/salt/placements/volvo/qa/test/specs/testimonies.e2e.ts"
+  ],
+  "state": {
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0
+  }
+}

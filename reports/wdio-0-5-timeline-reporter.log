@@ -1,0 +1,88 @@
+{
+  "start": "2022-10-05T14:48:20.917Z",
+  "end": "2022-10-05T14:48:28.438Z",
+  "capabilities": {
+    "acceptInsecureCerts": true,
+    "browserName": "chrome",
+    "browserVersion": "106.0.5249.91",
+    "chrome": {
+      "chromedriverVersion": "106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569})",
+      "userDataDir": "/tmp/.com.google.Chrome.OsKsU9"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:40889"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "8e7a2d2c29998c22b4fbe7a40a1e3868"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "baseUrl": "https://www.volvocars.com",
+  "framework": "mocha",
+  "duration": 7521,
+  "suites": [
+    {
+      "title": "My Video section",
+      "duration": 7454,
+      "start": "2022-10-05T14:48:20.927Z",
+      "end": "2022-10-05T14:48:28.381Z",
+      "tests": [
+        {
+          "title": "should have video autoplaying muted",
+          "start": "2022-10-05T14:48:23.442Z",
+          "end": "2022-10-05T14:48:24.088Z",
+          "duration": 646,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "should play video",
+          "start": "2022-10-05T14:48:24.090Z",
+          "end": "2022-10-05T14:48:27.123Z",
+          "duration": 3033,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "should pause video",
+          "start": "2022-10-05T14:48:27.124Z",
+          "end": "2022-10-05T14:48:28.378Z",
+          "duration": 1254,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2022-10-05T14:48:20.927Z",
+          "end": "2022-10-05T14:48:23.442Z",
+          "duration": 2515,
+          "title": "\"before all\" hook for My Video section",
+          "associatedSuite": "My Video section"
+        }
+      ]
+    }
+  ],
+  "specs": [
+    "/home/aburto22/salt/placements/volvo/qa/test/specs/video.e2e.ts"
+  ],
+  "state": {
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0
+  }
+}
